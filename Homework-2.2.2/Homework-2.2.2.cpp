@@ -20,6 +20,7 @@ void change_limit(bank_account& p) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     std::cout << "¬ведите номер счЄта : " << std::endl;
     bank_account new_num_account;
     std::cin >> new_num_account.num_account;
